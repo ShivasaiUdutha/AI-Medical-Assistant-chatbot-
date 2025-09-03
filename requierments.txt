@@ -6,7 +6,7 @@ conda install -c conda-forge spacy
 
 python -m spacy download en_core_web_sm
 
-conda install -c conda-forge tensorflow
+conda install -c conda-forge tensorflow-cpu
 
 conda install -c anaconda scikit-learn
 
@@ -19,4 +19,8 @@ cd myapp/
 mkdir nltk_data
 
 python -m nltk.downloader
+spacy
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+pip install gunicorn
+
 
