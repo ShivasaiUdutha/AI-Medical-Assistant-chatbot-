@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "Name": "shiva",
+            "Age": 21,
+            "Gender": "male",
+            "Disease": "GERD",
+            "Sympts": [
+                "stomach_pain",
+                "acidity",
+                "vomiting",
+                "chest_pain"
+            ]
+        }
+    ]
+}
